@@ -257,7 +257,7 @@ include "navbar.php";
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                  <img src="Admin/upload/<?=$row['reviever']?>" class="testimonial-img" alt="">
                   <h3><?=$row['name']?></h3>
                   <h4><?=$row['job']?></h4>
                   <div class="stars">
